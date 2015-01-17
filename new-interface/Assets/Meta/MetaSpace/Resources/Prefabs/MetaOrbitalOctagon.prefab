@@ -1,0 +1,188 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 33: {fileID: 3300000}
+  - 23: {fileID: 2300000}
+  - 114: {fileID: 11400002}
+  m_Layer: 0
+  m_Name: Sphere003
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MetaOrbitalOctagon
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 21.4314766, y: 0, z: 211.471252}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 400002}
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: 0, y: .194395453, z: 0, w: .980923235}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: .0083999997, y: .00796991959, z: .0083999997}
+  m_Children:
+  - {fileID: 400000}
+  m_Father: {fileID: 0}
+--- !u!23 &2300000
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: 7e3a09467d979e4439e3712648253137, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_SortingLayerID: 0
+--- !u!33 &3300000
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Mesh: {fileID: 4300000, guid: ce603426483b7b946837f02b05114567, type: 3}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1545604054, guid: c194b141a03c88649a39294c9c55f84c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockToFrame: 0
+  lockToCamera: 0
+  orbital: 0
+  lockDistance: 1
+  lockDistanceMeters: .400000006
+  lockPivot: {fileID: 0}
+  lockYAxis: 0
+  pivotAroundCamera: 1
+  onUpdate: 0
+  canvasTarget: 0
+  canvasTargetID: 1
+  markerTarget: 0
+  markerTargetID: 1
+  markerTargetOnRelease: 0
+  markerTargetPersistent: 0
+  gesture: -1
+  grabbable: 0
+  useDefaultGrabbableDistance: 1
+  grabbableDistance: .100000001
+  useDefaultGrabbingHandType: 1
+  grabbingHandType: 3
+  moveObjectOnGrab: 1
+  rotateObjectOnGrab: 0
+  pinchable: 0
+  useDefaultPinchableDistance: 1
+  pinchableDistance: .100000001
+  useDefaultPinchingHandType: 1
+  pinchingHandType: 3
+  moveObjectOnPinch: 0
+  scaleObjectOnPinch: 1
+  useMinScale: 1
+  useMaxScale: 1
+  minScaleRatio: .5
+  maxScaleRatio: 2
+  minScale: {x: .00419999985, y: .0039849598, z: .00419999985}
+  maxScale: {x: .0167999994, y: .0159398392, z: .0167999994}
+  swipeable: 0
+  grabbed: 0
+  pinched: 0
+  jaysify: 1
+  feedback: 0
+  highlightableObject: {fileID: 0}
+  markerTexture: {fileID: 0}
+  markers: {fileID: 0}
+  marker: 0
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1087040571, guid: c194b141a03c88649a39294c9c55f84c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 2
+  controlChildren: 0
+  vectorChildren: []
+  vectorParent: {fileID: 0}
+  nonRenderingController: 0
+  alternateChildColors: 1
+  preserveColors: 0
+  surfaceColor: {r: 0, g: 1, b: 1, a: 1}
+  lineColor: {r: 0, g: 1, b: 0, a: 1}
+  pointColor: {r: 1, g: 0, b: 0, a: 1}
+  useDefaults: 1
+  surfaceMaterial: {fileID: 0}
+  lineMaterial: {fileID: 0}
+  pointMaterial: {fileID: 0}
+  lineWidth: 12
+  pointWidth: 1
+  playerViewDistance: 500
+  controlMeshRenderer: 1
+  rebuildOnClick: 1
+  snapped: 0
+  minimumAngle: 5
+  fadeTime: 2
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100002}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

@@ -1,0 +1,9 @@
+fileFormatVersion: 2
+guid: c194b141a03c88649a39294c9c55f84c
+MonoAssemblyImporter:
+  serializedVersion: 1
+  iconMap: {}
+  executionOrder:
+    Meta.MetaUserSettingsManager: -500
+    Meta.MetaWorld: -1000
+  userData: 

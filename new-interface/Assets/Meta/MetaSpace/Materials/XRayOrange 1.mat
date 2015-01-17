@@ -1,0 +1,120 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: XRayOrange 1
+  m_Shader: {fileID: 4800000, guid: f6eaee8b653561743807cd8d2e4a1c7e, type: 3}
+  m_ShaderKeywords: []
+  m_CustomRenderQueue: -1
+  m_SavedProperties:
+    serializedVersion: 2
+    m_TexEnvs:
+      data:
+        first:
+          name: _MainTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 431d64857e273bb4eb0de2574a4f88af, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _BumpMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _RampTex
+        second:
+          m_Texture: {fileID: 2800000, guid: 09a9bcf7e5ad58b4aa74e4a6013a0948, type: 3}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+      data:
+        first:
+          name: _LightMap
+        second:
+          m_Texture: {fileID: 0}
+          m_Scale: {x: 1, y: 1}
+          m_Offset: {x: 0, y: 0}
+    m_Floats:
+      data:
+        first:
+          name: _Cutoff
+        second: .5
+      data:
+        first:
+          name: _Shininess
+        second: .699999988
+      data:
+        first:
+          name: _InvFade
+        second: 1
+      data:
+        first:
+          name: _Inside
+        second: 0
+      data:
+        first:
+          name: _Rim
+        second: .285714298
+      data:
+        first:
+          name: _RimPower
+        second: 2.21641803
+      data:
+        first:
+          name: _Size
+        second: .100000001
+      data:
+        first:
+          name: _Falloff
+        second: 5
+      data:
+        first:
+          name: _FalloffPlanet
+        second: 5
+      data:
+        first:
+          name: _Transparency
+        second: 15
+      data:
+        first:
+          name: _TransparencyPlanet
+        second: 10.4683723
+    m_Colors:
+      data:
+        first:
+          name: _Color
+        second: {r: .574626863, g: .376047432, b: .244430825, a: .470588237}
+      data:
+        first:
+          name: _SpecColor
+        second: {r: 1, g: 1, b: 1, a: 0}
+      data:
+        first:
+          name: _Emission
+        second: {r: 0, g: 0, b: 0, a: 0}
+      data:
+        first:
+          name: _TintColor
+        second: {r: .574626863, g: .574626863, b: .574626863, a: .490196079}
+      data:
+        first:
+          name: _EmisColor
+        second: {r: .328358233, g: .0710626021, b: .0710626021, a: 0}
+      data:
+        first:
+          name: _RimColor
+        second: {r: .895522356, g: .233905107, b: .358825922, a: 0}
+      data:
+        first:
+          name: _AtmoColor
+        second: {r: .5, g: .5, b: 1, a: 1}
+--- !u!1002 &2100001
+EditorExtensionImpl:
+  serializedVersion: 6

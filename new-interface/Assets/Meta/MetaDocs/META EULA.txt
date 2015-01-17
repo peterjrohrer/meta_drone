@@ -1,0 +1,184 @@
+META DEVELOPER KIT END USER LICENSE AGREEMENT
+
+Meta Company ("Meta") is pleased to provide to you the enclosed prototype version of the Meta 1 
+Developer Kit (the "Meta 1"). You have also been provided with the Meta 1 firmware (the "Firmware") and 
+the Meta 1 software development kit (the "SDK") to enable and facilitate your creation and development 
+of interactive software applications to be used in connection with the Meta 1. The Firmware comes with 
+your Meta 1, and the SDK can be downloaded at https://www.getameta.com/developers
+
+The Firmware, SDK and other software products (collectively, "Product(s)") made available through the 
+Meta Developer Center (the "Dev Center") are licensed, not sold, to you. Your license to each Product 
+that you obtain through the Dev Center is subject to your prior acceptance of this Developer Kit End User 
+License Agreement ("EULA"), and you agree that the terms of this EULA will apply to each Product that 
+you license through the Dev Center, unless that Product is covered by a valid end user license agreement 
+between you and the Application Provider of that Product, in which case the terms of that separate end 
+user license agreement will govern. Your license to any Meta Product under this EULA or separate 
+end user license agreement is granted by Meta, and your license to any Third-Party Product under this 
+EULA or separate end user license agreement is granted by the Application Provider of that Third-Party 
+Product. Any Product that is subject to the license granted under this EULA is referred to herein as 
+the "Product". The Application Provider or Meta as applicable ("Licensor") reserves all rights in and to the 
+Product not expressly granted to you under this EULA.
+
+A. Terms and Conditions; Scope of License; Limitations. You agree to use the Meta 1, Products 
+or any other Meta-branded products for your own personal, non-commercial purposes. Meta 
+grants you a non-exclusive, non-transferable, limited right and license to use the Products 
+solely in accordance with these Terms and Conditions. All rights not specifically granted 
+herein are reserved by Meta and, as applicable, Meta’s licensors. This license confers no 
+title or ownership in the Meta 1 or Products and should not be construed as a sale of any 
+rights therein. You may not distribute or make the Product available over a network where it 
+could be used by multiple devices at the same time. You agree not to: (a) sell, rent, lease, 
+sublicense, distribute or otherwise transfer the Products without the express prior written 
+consent of Meta; (b) reverse engineer, derive source code from, modify source code from, 
+or decompile source code from the Product in whole or in part, or (c) make any commercial 
+use of the Product without the prior written consent of Meta. Meta shall have no obligation to 
+provide any updates or upgrades to the Products, but in the event that it does, such updates, 
+upgrades and any documentation shall be deemed part of the Product, and shall be subject to 
+these Terms and Conditions and this EULA.
+
+B. Ownership. As between you and Meta, Meta shall own all right, title, and interest in and to the 
+Meta 1 and Products and any and all modifications or copies thereof or improvements thereto. 
+You will have only the limited license to use the Meta 1 and Products in accordance with these 
+Terms & Conditions and EULA.
+
+C. Consent to Use of Data. You agree that Licensor may collect and use technical data and 
+related information—including but not limited to technical information about your device, 
+system and application software, and peripherals—that is gathered periodically to facilitate the 
+provision of software updates, product support, and other services to you (if any) related to the 
+Product. Licensor may use this information, as long as it is in a form that does not personally 
+identify you, to improve its products or to provide services or technologies to you.
+
+D. Termination. The license is effective until terminated by you or Licensor. Your rights under 
+this license will terminate automatically without notice from the Licensor if you fail to comply 
+with any term(s) of this license. Upon termination of the license, you shall cease all use of the 
+Product and destroy all copies, full or partial, of the Product.
+
+E. External Service; Third-Party Materials. The Product may enable access to Licensor's and/or 
+third-party services and websites (collectively and individually, "External Service"). Use of the 
+External Service requires Internet access and use of certain External Service requires you to 
+accept additional terms.
+
+You understand that by using any of the External Service, you may encounter content 
+that may be deemed offensive, indecent, or objectionable, which content may or may not 
+be identified as having explicit language, and that the results of any search or entering 
+of a particular URL may automatically and unintentionally generate links or references to 
+objectionable material. Nevertheless, you agree to use the External Service at your sole risk 
+and that neither the Licensor nor its agents shall have any liability to you for content that may 
+be found to be offensive, indecent, or objectionable.
+
+Certain External Service may display, include or make available content, data, information, 
+applications or materials from third parties ("Third Party Materials") or provide links to certain 
+third party web sites. By using the External Service, you acknowledge and agree that neither 
+the Licensor nor its agents is responsible for examining or evaluating the content, accuracy, 
+completeness, timeliness, validity, copyright compliance, legality, decency, quality or any 
+other aspect of such Third Party Materials or web sites. Neither the Licensor nor its agents 
+warrant or endorse and does not assume and will not have any liability or responsibility to you 
+or any other person for any third-party services, Third Party Materials or web sites, or for any 
+other materials, products, or services of third parties. Third Party Materials and links to other 
+web sites are provided solely as a convenience to you.
+
+You agree that the External Service contains proprietary content, information and material that 
+is owned by Licensor and/or its agents or licensors, and is protected by applicable intellectual 
+property and other laws, including but not limited to copyright, and that you will not use such 
+proprietary content, information or materials in any way whatsoever except for permitted use 
+of the External Service or in any manner that is inconsistent with the terms of this EULA or 
+that infringes any intellectual property rights of a third party or Meta. No portion of the External 
+Service may be reproduced in any form or by any means. You agree not to modify, rent, 
+lease, loan, sell, distribute, or create derivative works based on the External Service, in any 
+manner, and you shall not exploit the External Service in any unauthorized way whatsoever, 
+including but not limited to, using the External Service to transmit any computer viruses, 
+worms, trojan horses or other malware, or by trespass or burdening network capacity. You 
+further agree not to use the External Service in any manner to harass, abuse, stalk, threaten, 
+defame or otherwise infringe or violate the rights of any other party, and that neither Licensor 
+nor its agents is in any way responsible for any such use by you, nor for any harassing, 
+threatening, defamatory, offensive, infringing or illegal messages or transmissions that you 
+may receive as a result of using any of the External Service.
+
+In addition, External Service and Third Party Materials that may be accessed from, displayed 
+on or linked to from Meta devices are not available in all languages or in all countries or 
+regions. Licensor makes no representation that such External Service and Materials are 
+appropriate or available for use in any particular location. To the extent you choose to use 
+or access such External Service and Materials, you do so at your own initiative and are 
+responsible for compliance with any applicable laws, including but not limited to applicable 
+local laws. Licensor reserves the right to change, suspend, remove, or disable access to any 
+External Service at any time without notice. In no event will Licensor be liable for the removal 
+of or disabling of access to any such External Service. Licensor may also impose limits on the 
+use of or access to certain External Service, in any case and without notice or liability.
+
+F. IMPORTANT SAFETY INFORMATION
+ALWAYS BE AWARE OF YOUR SURROUNDINGS WHEN USING THE META 1. TAKE 
+SPECIAL CARE TO ENSURE THAT YOU ARE NOT NEAR STAIRS, BALCONIES, 
+WINDOWS, FURNITURE, OR OTHER ITEMS THAT CAN BE RUN INTO, TRIPPED OVER, 
+OR KNOCKED DOWN WHEN USING THE META 1. WHILE USING THE META 1, DO NOT 
+OPERATE A VEHICLE, USE IN WATER, HANDLE SHARP OR OTHERWISE DANGEROUS 
+OBJECTS, OR ENGAGE IN ANY OTHER ACTIVITY WHERE VISION IMPAIRMENT FROM 
+USE OF THE META 1 MAY RESULT IN A HAZARDOUS SITUATION TO YOU OR OTHERS.
+
+TO REDUCE THE RISK OF ELECTRIC SHOCK:
+1. DO NOT EXPOSE THE META 1 TO WATER OR MOISTURE.
+2. UNPLUG BEFORE CLEANING, AND CLEAN ONLY WITH A DRY CLOTH.
+3. KEEP THE META 1 AWAY FROM OPEN FLAMES AND OTHER HEAT 
+4. DO NOT MODIFY OR DISASSEMBLE THE META 1 WITHOUT ASSISTANCE 
+G. NO WARRANTY. YOU EXPRESSLY ACKNOWLEDGE AND AGREE THAT USE OF 
+
+THE PRODUCT IS AT YOUR SOLE RISK AND THAT THE ENTIRE RISK AS TO 
+SATISFACTORY QUALITY, PERFORMANCE, ACCURACY, AND EFFORT IS WITH 
+YOU. TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE 
+PRODUCT AND ANY SERVICE PERFORMED OR PROVIDED BY THE PRODUCT 
+ARE PROVIDED "AS IS" AND "AS AVAILABLE", WITH ALL FAULTS AND WITHOUT 
+WARRANTY OF ANY KIND, AND LICENSOR HEREBY DISCLAIMS ALL WARRANTIES 
+AND CONDITIONS WITH RESPECT TO THE PRODUCT AND ANY SERVICE, EITHER 
+EXPRESS, IMPLIED, OR STATUTORY, INCLUDING, BUT NOT LIMITED TO, THE 
+IMPLIED WARRANTIES AND/OR CONDITIONS OF MERCHANTABILITY, OF 
+SATISFACTORY QUALITY, OF FITNESS FOR A PARTICULAR PURPOSE, OF 
+ACCURACY, OF QUIET ENJOYMENT, AND OF NONINFRINGEMENT OF THIRD-
+PARTY RIGHTS. LICENSOR DOES NOT WARRANT AGAINST INTERFERENCE WITH 
+YOUR ENJOYMENT OF THE PRODUCT, THAT THE FUNCTIONS CONTAINED IN OR 
+SERVICE PERFORMED OR PROVIDED BY THE PRODUCT WILL MEET YOUR 
+REQUIREMENTS, THAT THE OPERATION OF THE PRODUCT OR SERVICE WILL BE 
+UNINTERRUPTED OR ERROR-FREE, OR THAT DEFECTS IN THE PRODUCT OR 
+SERVICE WILL BE CORRECTED. NO ORAL OR WRITTEN INFORMATION OR 
+ADVICE GIVEN BY LICENSOR OR ITS AUTHORIZED REPRESENTATIVE SHALL 
+CREATE A WARRANTY. SHOULD THE PRODUCT OR SERVICE PROVE 
+DEFECTIVE, YOU ASSUME THE ENTIRE COST OF ALL NECESSARY SERVICING, 
+REPAIR, OR CORRECTION. SOME JURISDICTIONS DO NOT ALLOW THE 
+EXCLUSION OF IMPLIED WARRANTIES OR LIMITATIONS ON APPLICABLE 
+STATUTORY RIGHTS OF A CONSUMER, SO THE ABOVE EXCLUSION AND 
+LIMITATIONS MAY NOT APPLY TO YOU.
+
+H.LIMITATION OF LIABILITY. TO THE EXTENT NOT PROHIBITED BY LAW, 
+IN NO EVENT SHALL LICENSOR BE LIABLE FOR PERSONAL INJURY OR 
+ANY INCIDENTAL, SPECIAL, INDIRECT, OR CONSEQUENTIAL DAMAGES 
+WHATSOEVER, INCLUDING, WITHOUT LIMITATION, DAMAGES FOR LOSS 
+OF PROFITS, LOSS OF DATA, BUSINESS INTERRUPTION, OR ANY OTHER 
+COMMERCIAL DAMAGES OR LOSSES, ARISING OUT OF OR RELATED TO YOUR 
+USE OR INABILITY TO USE THE PRODUCT, HOWEVER CAUSED, REGARDLESS 
+OF THE THEORY OF LIABILITY (CONTRACT, TORT, OR OTHERWISE) AND EVEN IF 
+LICENSOR HAS BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES. SOME 
+JURISDICTIONS DO NOT ALLOW THE LIMITATION OF LIABILITY FOR PERSONAL 
+SOURCES.
+
+FROM A TRAINED ELECTRONICS PROFESSIONAL.
+INJURY, OR OF INCIDENTAL OR CONSEQUENTIAL DAMAGES, SO THIS 
+LIMITATION MAY NOT APPLY TO YOU. IN NO EVENT SHALL LICENSOR'S TOTAL 
+LIABILITY TO YOU FOR ALL DAMAGES (OTHER THAN AS MAY BE REQUIRED 
+BY APPLICABLE LAW IN CASES INVOLVING PERSONAL INJURY) EXCEED 
+THE AMOUNT OF FIFTY DOLLARS ($50.00). THE FOREGOING LIMITATIONS 
+WILL APPLY EVEN IF THE ABOVE STATED REMEDY FAILS OF ITS ESSENTIAL 
+PURPOSE.
+
+I. Export Restriction. You may not use or otherwise export or re-export the Product except 
+as authorized by United States law and the laws of the jurisdiction in which the Product 
+was obtained. In particular, but without limitation, the Product may not be exported or re-
+exported (a) into any U.S.-embargoed countries or (b) to anyone on the U.S. Treasury 
+Department's Specially Designated Nationals List or the U.S. Department of Commerce 
+Denied Persons List or Entity List. By using the Product, you represent and warrant that 
+you are not located in any such country or on any such list. You also agree that you 
+will not use these products for any purposes prohibited by United States law, including, 
+without limitation, the development, design, manufacture, or production of nuclear, 
+missile, or chemical or biological weapons.
+
+J. Governing law. The laws of the State of California, excluding its conflicts of law rules, 
+govern this license and your use of the Product. Your use of the Product may also be 
+subject to other local, state, national, or international laws.
+
+Last updated October 1, 2014.

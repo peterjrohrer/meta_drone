@@ -1,0 +1,81 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MetaSpace
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1149825044, guid: c194b141a03c88649a39294c9c55f84c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  debug: 0
+  appObjects: []
+  availableApps: []
+  transitioning: 0
+  transitionTime: 0
+  transitionStartTime: 0
+  horizon: {fileID: 0}
+  showHorizon: 1
+  groundHeight: -1
+  lookingDown: 0
+  bounds: {fileID: 0}
+  showBounds: 1
+  OrbitalGameObjects: []
+  touchDistance: .400000006
+  mguiSurfaceMaterial: {fileID: 2100000, guid: 7e3a09467d979e4439e3712648253137, type: 2}
+  mguiLineMaterial: {fileID: 2100000, guid: 8bd2708de123fb94fbb20dd9625c7529, type: 2}
+  mguiPointMaterial: {fileID: 2100000, guid: 10bfc5a9fa847ff408143c80a0d90f57, type: 2}
+  mguiLineWidth: 3
+  mguiPointWidth: 20
+  mguiSurfaceColor: {r: 0, g: 255, b: 255, a: .301960796}
+  mguiLineColor: {r: 1, g: 1, b: 1, a: .643137276}
+  mguiPointColor: {r: 1, g: 1, b: 1, a: .800000012}
+  vectorObjects: []
+  mguiColorPalette:
+  - {r: 1, g: 1, b: 1, a: .568627477}
+  - {r: 0, g: 1, b: .296551704, a: .509803951}
+  - {r: 1, g: .724137902, b: 0, a: .525490224}
+  - {r: 0, g: .724036455, b: .867647052, a: .494117647}
+  - {r: .867647052, g: 0, b: .125659034, a: .533333361}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1

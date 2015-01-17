@@ -1,0 +1,274 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &100000
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400000}
+  - 114: {fileID: 11400006}
+  - 114: {fileID: 11400004}
+  m_Layer: 0
+  m_Name: MetaLogoAnimation
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &100002
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 400002}
+  - 33: {fileID: 3300000}
+  - 23: {fileID: 2300000}
+  - 95: {fileID: 9500000}
+  - 114: {fileID: 11400002}
+  - 114: {fileID: 11400000}
+  m_Layer: 0
+  m_Name: MetaLogoModel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &400000
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 400002}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!4 &400002
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_LocalRotation: {x: -.000557999942, y: 0, z: 0, w: .999999881}
+  m_LocalPosition: {x: -.000425611914, y: .0129533727, z: -.0741731301}
+  m_LocalScale: {x: .200000003, y: .200000003, z: .200000003}
+  m_Children: []
+  m_Father: {fileID: 400000}
+  m_RootOrder: 0
+--- !u!23 &2300000
+Renderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_LightmapIndex: 255
+  m_LightmapTilingOffset: {x: 1, y: 1, z: 0, w: 0}
+  m_Materials:
+  - {fileID: 2100000, guid: b1f8e126403954e4ca5209fbfed66ca1, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 0
+  m_LightProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3300000
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Mesh: {fileID: 4300000, guid: 9a36e09fbd3e4e74290c242d7128c0aa, type: 3}
+--- !u!95 &9500000
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 9a36e09fbd3e4e74290c242d7128c0aa, type: 3}
+  m_Controller: {fileID: 9100000, guid: 96a2acef892a5984fa48e311a620bf15, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_HasTransformHierarchy: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1087040571, guid: c194b141a03c88649a39294c9c55f84c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentState: 2
+  controlChildren: 1
+  vectorChildren: []
+  vectorParent: {fileID: 0}
+  nonRenderingController: 0
+  vectorStyle:
+    surfaceColor: {r: 0, g: 1, b: 1, a: 1}
+    lineColor: {r: 0, g: 1, b: 0, a: 1}
+    pointColor: {r: 1, g: 0, b: 0, a: 1}
+    surfaceMaterial: {fileID: 0}
+    lineMaterial: {fileID: 0}
+    pointMaterial: {fileID: 0}
+    lineWidth: 12
+    pointWidth: 1
+  alternateChildColors: 1
+  preserveColors: 0
+  useDefaults: 1
+  playerViewDistance: 500
+  controlMeshRenderer: 1
+  rebuildOnClick: 1
+  snapped: 0
+  minimumAngle: 5
+  fadeTime: 2
+--- !u!114 &11400002
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100002}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1545604054, guid: c194b141a03c88649a39294c9c55f84c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockToOrbital: 0
+  lockToFrame: 0
+  lockToCamera: 0
+  orbital: 0
+  lockDistance: 1
+  lockDistanceMeters: .400000006
+  lockPivot: {fileID: 0}
+  lockYAxis: 0
+  pivotAroundCamera: 1
+  onUpdate: 0
+  canvasTarget: 0
+  canvasTargetID: 1
+  markerTarget: 0
+  markerTargetID: -1
+  markerTargetPlaceable: 1
+  markerTargetPersistent: 0
+  gesture: -1
+  touchable: 0
+  dwellable: 0
+  grabbable: 0
+  useDefaultGrabbableDistance: 1
+  grabbableDistance: .100000001
+  useDefaultGrabbingHandType: 1
+  grabbingHandType: 3
+  moveObjectOnGrab: 1
+  rotateObjectOnGrab: 0
+  pinchable: 0
+  useDefaultPinchableDistance: 1
+  pinchableDistance: .100000001
+  useDefaultPinchingHandType: 1
+  pinchingHandType: 3
+  moveObjectOnPinch: 0
+  scaleObjectOnPinch: 1
+  useMinScale: 1
+  useMaxScale: 1
+  minScaleRatio: .5
+  maxScaleRatio: 2
+  minScale: {x: .100000001, y: .100000001, z: .100000001}
+  maxScale: {x: .400000006, y: .400000006, z: .400000006}
+  swipeable: 0
+  grabbed: 0
+  pinched: 0
+  jaysify: 1
+  feedback: 0
+  arrow: 0
+--- !u!114 &11400004
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1943124827, guid: c194b141a03c88649a39294c9c55f84c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &11400006
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 100000}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -1545604054, guid: c194b141a03c88649a39294c9c55f84c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  lockToOrbital: 0
+  lockToFrame: 0
+  lockToCamera: 1
+  orbital: 0
+  lockDistance: 1
+  lockDistanceMeters: .400000006
+  lockPivot: {fileID: 0}
+  lockYAxis: 0
+  pivotAroundCamera: 1
+  onUpdate: 1
+  canvasTarget: 0
+  canvasTargetID: 1
+  markerTarget: 0
+  markerTargetID: -1
+  markerTargetPlaceable: 1
+  markerTargetPersistent: 0
+  gesture: -1
+  touchable: 0
+  dwellable: 0
+  grabbable: 0
+  useDefaultGrabbableDistance: 1
+  grabbableDistance: .100000001
+  useDefaultGrabbingHandType: 1
+  grabbingHandType: 3
+  moveObjectOnGrab: 1
+  rotateObjectOnGrab: 0
+  pinchable: 0
+  useDefaultPinchableDistance: 1
+  pinchableDistance: .100000001
+  useDefaultPinchingHandType: 1
+  pinchingHandType: 3
+  moveObjectOnPinch: 0
+  scaleObjectOnPinch: 1
+  useMinScale: 1
+  useMaxScale: 1
+  minScaleRatio: .5
+  maxScaleRatio: 2
+  minScale: {x: .5, y: .5, z: .5}
+  maxScale: {x: 2, y: 2, z: 2}
+  swipeable: 0
+  grabbed: 0
+  pinched: 0
+  jaysify: 0
+  feedback: 0
+  arrow: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 100000}
+  m_IsPrefabParent: 1
+  m_IsExploded: 1
