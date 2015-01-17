@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Plugins\SocketIO\Scripts\SocketIO\SocketIOComponent.cs">
+    <Files>
+      <File FileName="Assets\HandTracking.cs" Line="15" Column="1" />
+      <File FileName="Assets\WSS.cs" Line="11" Column="3" />
+      <File FileName="Assets\Plugins\SocketIO\Scripts\SocketIO\SocketIOComponent.cs" Line="180" Column="6" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
