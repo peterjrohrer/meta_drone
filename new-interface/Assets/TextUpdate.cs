@@ -15,11 +15,11 @@ public class TextUpdate : MonoBehaviour {
 	}
 
 	public void Rise(float y){
-		GetComponent<Text> ().text = "Altitude: Rising";
+		GetComponent<Text> ().text = "Altitude - Rising: " + y;
 		GetComponent<Text> ().color = Color.green;
 	}
 	public void Fall(float y){
-		GetComponent<Text> ().text = "Altitude: Falling";
+		GetComponent<Text> ().text = "Altitude - Falling: " + y;
 		GetComponent<Text> ().color = Color.red;
 	}
 }
