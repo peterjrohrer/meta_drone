@@ -1,13 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\HandTracking.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LeftHandTracking.cs">
     <Files>
-      <File FileName="Assets\YawTracking.cs" Line="45" Column="47" />
-      <File FileName="Assets\YawTextUpdate.cs" Line="19" Column="3" />
-      <File FileName="Assets\LeftHandTracking.cs" Line="45" Column="6" />
-      <File FileName="Assets\HandTracking.cs" Line="45" Column="30" />
-      <File FileName="Assets\TextUpdate.cs" Line="30" Column="2" />
-      <File FileName="Assets\PitchTextUpdate.cs" Line="16" Column="2" />
+      <File FileName="Assets\HandTracking.cs" Line="20" Column="3" />
+      <File FileName="Assets\TextUpdate.cs" Line="34" Column="2" />
+      <File FileName="Assets\PitchTextUpdate.cs" Line="3" Column="5" />
+      <File FileName="Assets\Kill.cs" Line="16" Column="18" />
+      <File FileName="Assets\LeftHandTracking.cs" Line="20" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

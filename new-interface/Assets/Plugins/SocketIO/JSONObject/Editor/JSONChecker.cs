@@ -1,6 +1,8 @@
 //#define PERFTEST        //For testing performance of parse/stringify.  Turn on editor profiling to see how we're doing
 
 using UnityEngine;
+#if UNITY_EDITOR
+
 using UnityEditor;
 
 public class JSONChecker : EditorWindow {
@@ -49,3 +51,5 @@ public class JSONChecker : EditorWindow {
 		}
 	}
 }
+
+#endif

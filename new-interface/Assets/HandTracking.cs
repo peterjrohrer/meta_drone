@@ -17,6 +17,7 @@ public class HandTracking : MetaBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+
 		Hand[] hands = Meta.Hands.GetHands();
 
 		//Debug.Log (hands + ":" + hands.Length);
