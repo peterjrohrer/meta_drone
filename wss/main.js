@@ -7,7 +7,8 @@ var client  = arDrone.createClient();
 
 
 io.attach(4567);
-count = 0;
+acount = 0;//altitude counter
+pcount = 0;//pitch counter
 max = 40;
 var up = false;
 client.setMaxListeners(100000000000000);
@@ -29,9 +30,9 @@ io.on('connection', function(socket){
 		//console.log("RISE");
 		if(!up)
 			return;
-		count++;
-		if(count > max){
-			count = 0;
+		acount++;
+		if(acount > max){
+			acount = 0;
 			client.stop();
 			client.up(0.8)
 			client.after(500, function(){
@@ -45,15 +46,48 @@ io.on('connection', function(socket){
 		//console.log("RISE");
 		if(!up)
 			return;
-		count++;
-		if(count > max){
-			count = 0;
+		acount++;
+		if(acount > max){
+			acount = 0;
 			client.stop();
 			client.down(0.5)
 			client.after(500, function(){
 				client.stop();
 			})
 			console.log("Fall");
+		}
+	})
+
+
+	socket.on('forwards', function(){
+		//console.log("RISE");
+		if(!up)
+			return;
+		pcount++;
+		if(pcount > max){
+			pcount = 0;
+			client.stop();
+			client.front(0.5)
+			client.after(300, function(){
+				client.stop();
+			})
+			console.log("Forwards");
+		}
+	})
+
+	socket.on('backwards', function(){
+		//console.log("RISE");
+		if(!up)
+			return;
+		pcount++;
+		if(pcount > max){
+			pcount = 0;
+			client.stop();
+			client.back(0.5)
+			client.after(300, function(){
+				client.stop();
+			})
+			console.log("Backwards");
 		}
 	})
 

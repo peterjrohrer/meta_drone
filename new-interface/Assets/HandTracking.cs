@@ -36,7 +36,7 @@ public class HandTracking : MetaBehaviour {
 				
 				if(position.y < 0){
 					t.GetComponent<TextUpdate>().Fall(position.y);
-
+					gameObject.GetComponent<SocketIOComponent>().Emit ("fall");
 
 					//t.Fall();
 					//GameObject.Find ("MGUI.Canvas/MGUI.Text").guiText.text = "JJJ";
@@ -44,6 +44,7 @@ public class HandTracking : MetaBehaviour {
 				}
 				else{
 					t.GetComponent<TextUpdate>().Rise(position.y);
+					gameObject.GetComponent<SocketIOComponent>().Emit ("rise");
 					//t.Rise();
 				}
 				//Debug.Log (angle * 180 / Mathf.PI);

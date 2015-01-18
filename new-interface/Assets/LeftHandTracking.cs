@@ -37,7 +37,7 @@ public class LeftHandTracking : MetaBehaviour {
 				
 				if(position.y < 0){
 					t.GetComponent<PitchTextUpdate>().Back(position.y);
-					
+					gameObject.GetComponent<SocketIOComponent>().Emit ("backwards");
 					
 					//t.Fall();
 					//GameObject.Find ("MGUI.Canvas/MGUI.Text").guiText.text = "JJJ";
@@ -45,6 +45,7 @@ public class LeftHandTracking : MetaBehaviour {
 				}
 				else{
 					t.GetComponent<PitchTextUpdate>().Forwards(position.y);
+					gameObject.GetComponent<SocketIOComponent>().Emit ("forwards");
 					//t.Rise();
 				}
 				//Debug.Log (angle * 180 / Mathf.PI);
