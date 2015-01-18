@@ -15,6 +15,14 @@ killed = false;
 var up = true;
 client.setMaxListeners(100000000000000);
 
+process.on('SIGINT', function(){
+	console.log("land");
+	client.land(function(){
+		process.exit(0);
+	})
+	
+})
+
 io.on('connection', function(socket){
 	console.log("CONNECTED");
 

@@ -1,12 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\LeftHandTracking.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Plugins\SocketIO\JSONObject\Editor\JSONChecker.cs">
     <Files>
       <File FileName="Assets\HandTracking.cs" Line="20" Column="3" />
       <File FileName="Assets\TextUpdate.cs" Line="34" Column="2" />
       <File FileName="Assets\PitchTextUpdate.cs" Line="3" Column="5" />
       <File FileName="Assets\Kill.cs" Line="16" Column="18" />
       <File FileName="Assets\LeftHandTracking.cs" Line="20" Column="1" />
+      <File FileName="Assets\YawTracking.cs" Line="12" Column="16" />
+      <File FileName="Assets\Plugins\SocketIO\JSONObject\Editor\JSONChecker.cs" Line="4" Column="17" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
