@@ -13,8 +13,6 @@ public class RelativeReorient : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		transform.position = getAligned ();
-		Debug.Log (transform.position);
-		Debug.Log ("-");
 	}
 
 	

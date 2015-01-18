@@ -1,13 +1,20 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 using Meta;
 using SocketIO;
+//using TextUpdate;
 
 public class HandTracking : MetaBehaviour {
 
 	// Use this for initialization
-	void Start () {
 
+	public Text t;
+	void OnStart () {
+
+
+
+		//GameObject.Find ("RiseFall").guiText.text = "AAA";
 	}
 	
 	// Update is called once per frame
@@ -33,12 +40,16 @@ public class HandTracking : MetaBehaviour {
 				float angle = Mathf.Atan2(position.z, position.x);
 				
 				if(position.y < 0){
-					gameObject.renderer.material.color = Color.red;
-					gameObject.GetComponent<SocketIOComponent>().Emit("fall");
+					t.GetComponent<TextUpdate>().Fall(position.y);
+
+
+					//t.Fall();
+					//GameObject.Find ("MGUI.Canvas/MGUI.Text").guiText.text = "JJJ";
+					//GameObject.Find ("MGUI.Canvas/MGUI.Text").guiText.GetComponent<TextUpdate>().Fall();
 				}
 				else{
-					gameObject.renderer.material.color = Color.green;
-					gameObject.GetComponent<SocketIOComponent>().Emit("rise");
+					t.GetComponent<TextUpdate>().Rise(position.y);
+					//t.Rise();
 				}
 				//Debug.Log (angle * 180 / Mathf.PI);
 				if(position.x < 0)
