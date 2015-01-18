@@ -36,7 +36,7 @@ io.on('connection', function(socket){
 			acount = 0;
 			client.up(0.8)
 			client.after(500, function(){
-				if(!up)
+				if(up)
 					client.up(0);
 			})
 			console.log("Rise");
@@ -52,7 +52,7 @@ io.on('connection', function(socket){
 			acount = 0;
 			client.down(0.5)
 			client.after(500, function(){
-				if(!up)
+				if(up)
 					client.down(0);
 			})
 			console.log("Fall");
@@ -69,7 +69,7 @@ io.on('connection', function(socket){
 			pcount = 0;
 			client.front(0.2)
 			client.after(200, function(){
-				if(!up)
+				if(up)
 					client.front(0);
 			})
 			console.log("Forwards");
@@ -85,7 +85,7 @@ io.on('connection', function(socket){
 			pcount = 0;
 			client.back(0.2)
 			client.after(200, function(){
-				if(!up)
+				if(up)
 					client.back(0);
 			})
 			console.log("Backwards");
