@@ -10,7 +10,8 @@ io.attach(4567);
 acount = 0;//altitude counter
 pcount = 0;//pitch counter
 max = 40;
-var up = false;
+killed = false;
+var up = true;
 client.setMaxListeners(100000000000000);
 
 io.on('connection', function(socket){
@@ -93,9 +94,14 @@ io.on('connection', function(socket){
 	})
 
 	socket.on('kill', function(){//land drone
+		if(killed){//already triggered this...
+			return;
+		}
+		up = false;//this is so the other methods don't fire...
+		killed = true;
 		console.log("KILL");
 		client.stop();
-		up = false;//this is so the other methods don't fire...
+
 		client.land(function(){
 			console.log("Landed");
 		});
