@@ -18,10 +18,11 @@ io.on('connection', function(socket){
 
 	client.takeoff(function(){
 		up = true;
-
+		console.log("Taken off")
 
 		setTimeout(function(){
 			client.land();
+			console.log("Landed");
 		}, 45*1000);
 
 	});
@@ -89,13 +90,17 @@ io.on('connection', function(socket){
 
 	socket.on('kill', function(){//land drone
 		client.stop();
-		client.land();
+		client.land(function(){
+			console.log("Landed");
+		});
+
 
 	})
 
 	socket.on('disconnect', function(){
 		client.stop();
 		client.land();
+		console.log("Disconnected");
 	})
 
 	// socket.on('land', function(){
