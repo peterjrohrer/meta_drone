@@ -64,8 +64,8 @@ io.on('connection', function(socket){
 		pcount++;
 		if(pcount > max){
 			pcount = 0;
-			client.front(0.5)
-			client.after(1000, function(){
+			client.front(0.2)
+			client.after(200, function(){
 				client.front(0);
 			})
 			console.log("Forwards");
@@ -79,8 +79,8 @@ io.on('connection', function(socket){
 		pcount++;
 		if(pcount > max){
 			pcount = 0;
-			client.back(0.5)
-			client.after(1000, function(){
+			client.back(0.2)
+			client.after(200, function(){
 				client.back(0);
 			})
 			console.log("Backwards");
