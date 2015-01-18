@@ -22,4 +22,10 @@ public class TextUpdate : MonoBehaviour {
 		GetComponent<Text> ().text = "Altitude - Falling: " + y;
 		GetComponent<Text> ().color = Color.red;
 	}
+	public void Err(){
+	
+		GetComponent<Text> ().text = "Hand not on screen!";
+		GetComponent<Text> ().color = Color.white;
+	
+	}
 }

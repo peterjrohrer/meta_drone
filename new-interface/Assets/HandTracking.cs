@@ -27,7 +27,7 @@ public class HandTracking : MetaBehaviour {
 			Debug.Log (hands[0]);
 			Hand right = Meta.Hands.right;
 			//Debug.Log(right);
-			if(right != null){
+			if(right != null && right.isValid){
 				Palm rp = right.palm;
 				Vector3 position = rp.position;
 
@@ -57,6 +57,8 @@ public class HandTracking : MetaBehaviour {
 
 				//gameObject.GetComponent<SocketIOComponent>()
 
+			} else{//hand not on screen
+				t.GetComponent<TextUpdate>().Err();
 			}
 		
 		}
