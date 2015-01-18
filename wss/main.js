@@ -33,10 +33,9 @@ io.on('connection', function(socket){
 		acount++;
 		if(acount > max){
 			acount = 0;
-			client.stop();
 			client.up(0.8)
 			client.after(500, function(){
-				client.stop();
+				client.up(0);
 			})
 			console.log("Rise");
 		}
@@ -49,10 +48,9 @@ io.on('connection', function(socket){
 		acount++;
 		if(acount > max){
 			acount = 0;
-			client.stop();
 			client.down(0.5)
 			client.after(500, function(){
-				client.stop();
+				client.down(0);
 			})
 			console.log("Fall");
 		}
@@ -66,10 +64,9 @@ io.on('connection', function(socket){
 		pcount++;
 		if(pcount > max){
 			pcount = 0;
-			client.stop();
 			client.front(0.5)
-			client.after(300, function(){
-				client.stop();
+			client.after(1000, function(){
+				client.front(0);
 			})
 			console.log("Forwards");
 		}
@@ -82,13 +79,17 @@ io.on('connection', function(socket){
 		pcount++;
 		if(pcount > max){
 			pcount = 0;
-			client.stop();
 			client.back(0.5)
-			client.after(300, function(){
-				client.stop();
+			client.after(1000, function(){
+				client.back(0);
 			})
 			console.log("Backwards");
 		}
+	})
+
+	socket.on('disconnect', function(){
+		client.stop();
+		client.land();
 	})
 
 	// socket.on('land', function(){
