@@ -61,6 +61,8 @@
      <Compile Include="Assets\RelativeReorient.cs" />
      <Compile Include="Assets\TextUpdate.cs" />
      <Compile Include="Assets\WSS.cs" />
+     <Compile Include="Assets\YawTextUpdate.cs" />
+     <Compile Include="Assets\YawTracking.cs" />
      <None Include="Assets\Plugins\SocketIO\JSONObject\readme.txt" />
      <None Include="Assets\Meta Packages\Vectrosity\Documentation\What to import!.txt" />
      <None Include="Assets\Plugins\SocketIO\readme.txt" />

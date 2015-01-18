@@ -1,13 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Kill.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\HandTracking.cs">
     <Files>
-      <File FileName="Assets\CameraFollow.cs" Line="16" Column="3" />
-      <File FileName="Assets\HandTracking.cs" Line="23" Column="3" />
-      <File FileName="Assets\TextUpdate.cs" Line="27" Column="37" />
-      <File FileName="Assets\LeftHandTracking.cs" Line="40" Column="70" />
-      <File FileName="Assets\PitchTextUpdate.cs" Line="21" Column="28" />
-      <File FileName="Assets\Kill.cs" Line="19" Column="78" />
+      <File FileName="Assets\YawTracking.cs" Line="45" Column="47" />
+      <File FileName="Assets\YawTextUpdate.cs" Line="19" Column="3" />
+      <File FileName="Assets\LeftHandTracking.cs" Line="45" Column="6" />
+      <File FileName="Assets\HandTracking.cs" Line="45" Column="30" />
+      <File FileName="Assets\TextUpdate.cs" Line="30" Column="2" />
+      <File FileName="Assets\PitchTextUpdate.cs" Line="16" Column="2" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -16,7 +16,7 @@ public class Kill : MetaBehaviour {
 	void Update () {
 		Hand[] hands = Meta.Hands.GetHands();
 		if (hands.Length == 2 && Meta.Hands.left.isValid && Meta.Hands.right.isValid) {//all hands present and accounted for
-			if(Meta.Hands.left.handOpenness > 30 && Meta.Hands.right.handOpenness > 30){//gotta kill it!
+			if(Meta.Hands.left.handOpenness > 31 && Meta.Hands.right.handOpenness > 35){//gotta kill it!
 				//gameObject.GetComponent<SocketIOComponent>().Emit ("kill");
 				t.GetComponent<Text>().color = Color.red;
 			}

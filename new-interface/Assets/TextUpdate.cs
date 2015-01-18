@@ -26,6 +26,9 @@ public class TextUpdate : MonoBehaviour {
 	
 		GetComponent<Text> ().text = "No altitude hand!";
 		GetComponent<Text> ().color = Color.white;
-	
+	}
+	public void Middle(){
+		GetComponent<Text> ().text = "Middle";
+		GetComponent<Text> ().color = new Color(0f, 0.545f, 0.545f);//blue
 	}
 }

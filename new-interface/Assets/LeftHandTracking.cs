@@ -35,7 +35,7 @@ public class LeftHandTracking : MetaBehaviour {
 				
 				float angle = Mathf.Atan2(position.z, position.x);
 				
-				if(position.y < 0){
+				if(position.y < -0.05){
 					t.GetComponent<PitchTextUpdate>().Back(position.y);
 					gameObject.GetComponent<SocketIOComponent>().Emit ("backwards");
 					
@@ -43,10 +43,13 @@ public class LeftHandTracking : MetaBehaviour {
 					//GameObject.Find ("MGUI.Canvas/MGUI.Text").guiText.text = "JJJ";
 					//GameObject.Find ("MGUI.Canvas/MGUI.Text").guiText.GetComponent<TextUpdate>().Fall();
 				}
-				else{
+				else if(position.y > 0.01){
 					t.GetComponent<PitchTextUpdate>().Forwards(position.y);
 					gameObject.GetComponent<SocketIOComponent>().Emit ("forwards");
 					//t.Rise();
+				}
+				else{
+					t.GetComponent<PitchTextUpdate>().Middle();
 				}
 				//Debug.Log (angle * 180 / Mathf.PI);
 				if(position.x < 0)
@@ -55,7 +58,7 @@ public class LeftHandTracking : MetaBehaviour {
 				//gameObject.GetComponent<SocketIOComponent>()
 				
 			} else{//hand not on screen
-				t.GetComponent<TextUpdate>().Err();
+				t.GetComponent<PitchTextUpdate>().Err();
 			}
 			
 		}
