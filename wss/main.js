@@ -4,7 +4,7 @@ var io = require('socket.io')({
 
 var arDrone = require('ar-drone');
 var client  = arDrone.createClient();
-
+console.log("Server started");
 
 io.attach(4567);
 acount = 0;//altitude counter
