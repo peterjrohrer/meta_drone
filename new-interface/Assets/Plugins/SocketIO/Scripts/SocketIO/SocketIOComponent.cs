@@ -176,8 +176,8 @@ namespace SocketIO
 			socketThread = new Thread(RunSocketThread);
 			socketThread.Start(ws);
 
-			//pingThread = new Thread(RunPingThread);
-			//pingThread.Start(ws);
+			pingThread = new Thread(RunPingThread);
+			pingThread.Start(ws);
 		}
 
 		public void Close()
