@@ -9,6 +9,7 @@ var client  = arDrone.createClient();
 io.attach(4567);
 acount = 0;//altitude counter
 pcount = 0;//pitch counter
+ycount = 0;
 max = 40;
 killed = false;
 var up = true;
@@ -90,6 +91,38 @@ io.on('connection', function(socket){
 					client.back(0);
 			})
 			console.log("Backwards");
+		}
+	})
+
+	socket.on('right', function(){
+		//console.log("RISE");
+		if(!up)
+			return;
+		ycount++;
+		if(ycount > max){
+			ycount = 0;
+			client.clockwise(0.2)
+			client.after(200, function(){
+				if(up)
+					client.clockwise(0);
+			})
+			console.log("Right");
+		}
+	})
+
+	socket.on('left', function(){
+		//console.log("RISE");
+		if(!up)
+			return;
+		ycount++;
+		if(ycount > max){
+			ycount = 0;
+			client.counterClockwise(0.2)
+			client.after(200, function(){
+				if(up)
+					client.counterClockwise(0);
+			})
+			console.log("Left");
 		}
 	})
 
