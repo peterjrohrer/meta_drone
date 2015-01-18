@@ -15,16 +15,16 @@ public class PitchTextUpdate : MonoBehaviour {
 	}
 	
 	public void Forwards(float y){
-		GetComponent<Text> ().text = "Pitch - Forwards: " + y;
-		GetComponent<Text> ().color = Color.green;
+		GetComponent<Text> ().text = "Pitch - Forwards";
+		GetComponent<Text> ().color = Color.cyan;
 	}
 	public void Back(float y){
-		GetComponent<Text> ().text = "Pitch - Backwards: " + y;
-		GetComponent<Text> ().color = Color.red;
+		GetComponent<Text> ().text = "Pitch - Backwards";
+		GetComponent<Text> ().color = Color.yellow;
 	}
 	public void Err(){
 		
-		GetComponent<Text> ().text = "Pitch hand not on screen!";
+		GetComponent<Text> ().text = "No pitch hand!";
 		GetComponent<Text> ().color = Color.white;
 		
 	}
