@@ -87,6 +87,12 @@ io.on('connection', function(socket){
 		}
 	})
 
+	socket.on('kill', function(){//land drone
+		client.stop();
+		client.land();
+
+	})
+
 	socket.on('disconnect', function(){
 		client.stop();
 		client.land();

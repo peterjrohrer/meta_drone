@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\CameraFollow.cs" />
      <Compile Include="Assets\HandTracking.cs" />
+     <Compile Include="Assets\Kill.cs" />
      <Compile Include="Assets\LeftHandTracking.cs" />
      <Compile Include="Assets\Meta\MetaApps\Meta SDK Guide\SDK Guide Scripts\GazeableTestScript.cs" />
      <Compile Include="Assets\Meta\MetaApps\Meta SDK Guide\SDK Guide Scripts\MetaSDKGuideApp.cs" />
