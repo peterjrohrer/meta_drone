@@ -23,8 +23,8 @@
 }
 
 ::selection {
-    background: #16a085;
-    color: #a4003a;
+    background: #42ff23;
+    color: #2f2f2f;
     text-shadow: none;
 }
 
@@ -78,22 +78,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .navbar-default .navbar-brand {
-	color: #1abc9c;
+	color: #42ff23;
 }
 
 .navbar-default {
-	background-color: transparent;
+	background-color: #2f2f2f;
 	border-color: transparent;
 }
 
 .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
-	color: #1abc9c;
+	color: #42ff23;
 	background-color: transparent;
-	border-bottom: 2px solid #1abc9c
+	border-bottom: 2px solid #42ff23
 }
 
 .navbar-default .navbar-nav > li > a {
-	color: #1abc9c;
+	color: #42ff23;
 }
 
 /* ==========================================================================
