@@ -1,9 +1,9 @@
-﻿using UnityEngine;
+using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
 
-public class TextUpdate : MonoBehaviour {
-
+public class PitchTextUpdate : MonoBehaviour {
+	
 	// Use this for initialization
 	void Start () {
 		Debug.Log (typeof(GameObject));
@@ -11,21 +11,21 @@ public class TextUpdate : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+		
 	}
-
-	public void Rise(float y){
-		GetComponent<Text> ().text = "Altitude - Rising: " + y;
+	
+	public void Forwards(float y){
+		GetComponent<Text> ().text = "Pitch - Forwards: " + y;
 		GetComponent<Text> ().color = Color.green;
 	}
-	public void Fall(float y){
-		GetComponent<Text> ().text = "Altitude - Falling: " + y;
+	public void Back(float y){
+		GetComponent<Text> ().text = "Pitch - Backwards: " + y;
 		GetComponent<Text> ().color = Color.red;
 	}
 	public void Err(){
-	
-		GetComponent<Text> ().text = "Altitude hand not on screen!";
+		
+		GetComponent<Text> ().text = "Pitch hand not on screen!";
 		GetComponent<Text> ().color = Color.white;
-	
+		
 	}
 }

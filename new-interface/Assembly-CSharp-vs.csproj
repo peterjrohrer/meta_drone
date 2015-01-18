@@ -48,6 +48,7 @@
   <ItemGroup>
      <Compile Include="Assets\CameraFollow.cs" />
      <Compile Include="Assets\HandTracking.cs" />
+     <Compile Include="Assets\LeftHandTracking.cs" />
      <Compile Include="Assets\Meta\MetaApps\Meta SDK Guide\SDK Guide Scripts\GazeableTestScript.cs" />
      <Compile Include="Assets\Meta\MetaApps\Meta SDK Guide\SDK Guide Scripts\MetaSDKGuideApp.cs" />
      <Compile Include="Assets\Meta\MetaApps\Meta SDK Guide\SDK Guide Scripts\OnGrabTestScript.cs" />
@@ -55,6 +56,7 @@
      <Compile Include="Assets\Meta\MetaApps\Meta SDK Guide\SDK Guide Scripts\OnSwipeTestScript.cs" />
      <Compile Include="Assets\Meta\MetaApps\Meta SDK Guide\SDK Guide Scripts\OnTouchEnterTestScript.cs" />
      <Compile Include="Assets\Meta\MetaApps\Meta Welcome\Scripts\MetaWelcome.cs" />
+     <Compile Include="Assets\PitchTextUpdate.cs" />
      <Compile Include="Assets\RelativeReorient.cs" />
      <Compile Include="Assets\TextUpdate.cs" />
      <Compile Include="Assets\WSS.cs" />
