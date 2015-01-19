@@ -30,7 +30,7 @@ If you'd like the drone to not move, leave your hands in the middle of the axis 
 
 ## Using This
 
-To run the program, one will need an AR.Drone 2.0, Meta Glasses, and a computer. First, connect to the drone's wifi after powering the drone on. Run `game.exe` file in the `new-interface` folder after plugging in and connecting the Meta Glasses. Then, once the GUI is visible, run the `main.js` file located in the `wss` directory. The drone should start to rise. Once it has taken off, you should be able to control the drone!
+To run the program, one will need an AR.Drone 2.0, Meta Glasses, and a computer. First, connect to the drone's wifi after powering the drone on. Run `game.exe` file in the `game` folder after plugging in and connecting the Meta Glasses. Then, once the GUI is visible, run the `main.js` file located in the `wss` directory. The drone should start to rise. Once it has taken off, you should be able to control the drone!
 
 ## In Action
 
